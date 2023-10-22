@@ -6,9 +6,9 @@ const Carosel = () => {
     return (
         <div className="carousel w-full h-[80vh]">
             {/* slider 1 */}
-            <div id="slide1" className="carousel-item relative w-full ">
-                <div className='absolute w-full h-full opacity-50 bg-black'></div>
-                <img src={banner1} className="w-full" />
+            <div id="slide1" className="carousel-item relative w-full rounded-xl ">
+                <div className='absolute w-full h-full opacity-50 bg-black rounded-xl'></div>
+                <img src={banner1} className="w-full rounded-xl" />
                 <div className='absolute top-40 left-20 text-white'>
                     <h2 className='text-5xl font-semibold mb-3'>Affordable <br /> Price For Car <br /> Servicing</h2>
                     <p className='mb-3'>There are many variations of passages of  available, but <br /> the majority have suffered alteration in some form</p>
@@ -27,9 +27,9 @@ const Carosel = () => {
                 </div>
             </div>
             {/* slider 2 */}
-            <div id="slide2" className="carousel-item relative w-full">
-                <div className='absolute w-full h-full opacity-50 bg-black'></div>
-                <img src={banner2} className="w-full" />
+            <div id="slide2" className="carousel-item relative w-full rounded-xl">
+                <div className='absolute w-full h-full opacity-50 bg-black rounded-xl'></div>
+                <img src={banner2} className="w-full rounded-xl" />
                 <div className='absolute top-40 left-20 text-white'>
                     <h2 className='text-5xl font-semibold mb-3'>Affordable <br /> Price For Car <br /> Servicing</h2>
                     <p className='mb-3'>There are many variations of passages of  available, but <br /> the majority have suffered alteration in some form</p>
@@ -48,9 +48,9 @@ const Carosel = () => {
                 </div>
             </div>
             {/* slider 3 */}
-            <div id="slide3" className="carousel-item relative w-full">
-                <div className='absolute w-full h-full opacity-50 bg-black'></div>
-                <img src={banner3} className="w-full" />
+            <div id="slide3" className="carousel-item relative w-full rounded-xl">
+                <div className='absolute w-full h-full opacity-50 bg-black rounded-xl'></div>
+                <img src={banner3} className="w-full rounded-xl" />
                 <div className='absolute top-40 left-20 text-white'>
                     <h2 className='text-5xl font-semibold mb-3'>Affordable <br /> Price For Car <br /> Servicing</h2>
                     <p className='mb-3'>There are many variations of passages of  available, but <br /> the majority have suffered alteration in some form</p>
@@ -69,9 +69,9 @@ const Carosel = () => {
                 </div>
             </div>
             {/* slider 4 */}
-            <div id="slide4" className="carousel-item relative w-full">
-                <div className='absolute w-full h-full opacity-50 bg-black'></div>
-                <img src={banner4} className="w-full" />
+            <div id="slide4" className="carousel-item relative w-full rounded-xl">
+                <div className='absolute w-full h-full opacity-50 bg-black rounded-xl'></div>
+                <img src={banner4} className="w-full rounded-xl" />
                 <div className='absolute top-40 left-20 text-white'>
                     <h2 className='text-5xl font-semibold mb-3'>Affordable <br /> Price For Car <br /> Servicing</h2>
                     <p className='mb-3'>There are many variations of passages of  available, but <br /> the majority have suffered alteration in some form</p>
