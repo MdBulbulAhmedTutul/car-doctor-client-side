@@ -4,6 +4,7 @@ import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 import Navbar from "../Nabbar/Navbar";
 import Service from "../Service/Service";
+import TeamSection from "../TeamSection/TeamSection";
 
 const Home = () => {
     return (
@@ -23,6 +24,9 @@ const Home = () => {
             </div>
             <div className="max-w-7xl mx-auto px-4 my-16">
                 <Contact></Contact>
+            </div>
+            <div className="max-w-7xl mx-auto px-4 my-16">
+                <TeamSection></TeamSection>
             </div>
             <div>
                 <Footer></Footer>
