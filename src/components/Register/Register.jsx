@@ -3,15 +3,26 @@ import Navbar from "../Nabbar/Navbar";
 import { AiFillGithub, AiOutlineGoogle } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import login from '../../assets/images/login/login.svg'
+import { useContext } from "react";
+import { AuthContext } from "../Authprovider/AuthProvider";
 
 const Register = () => {
+    const { createUser } = useContext(AuthContext);
     const handleRegister = event => {
         event.preventDefault();
         const form = event.target;
         const name = form.name.value;
         const email = form.email.value;
         const password = form.password.value;
-        console.log(name, email, password)
+        console.log(name, email, password);
+        // create user
+        createUser(email, password)
+        .then(result => {
+            console.log(result.user);
+        })
+        .catch(error => {
+            console.error(error);
+        })
     }
     return (
         <div>
