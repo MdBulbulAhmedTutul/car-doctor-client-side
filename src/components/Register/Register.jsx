@@ -1,10 +1,10 @@
 import { BiLogoFacebook } from "react-icons/bi";
-import Navbar from "../Nabbar/Navbar";
 import { AiFillGithub, AiOutlineGoogle } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import login from '../../assets/images/login/login.svg'
 import { useContext } from "react";
 import { AuthContext } from "../Authprovider/AuthProvider";
+import LoginNavBar from "../LoginNavBar/LoginNavBar";
 
 const Register = () => {
     const { createUser } = useContext(AuthContext);
@@ -27,7 +27,7 @@ const Register = () => {
     return (
         <div>
             <div className="max-w-7xl mx-auto px-4 mb-16">
-                <Navbar></Navbar>
+                <LoginNavBar></LoginNavBar>
             </div>
             <div className="max-w-7xl mx-auto px-4 bg-gray-100 p-10 rounded-xl">
                 <div className="flex items-center flex-col md:flex-row justify-between">

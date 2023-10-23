@@ -1,7 +1,9 @@
 import { AiOutlineArrowRight } from 'react-icons/ai';
+// eslint-disable-next-line react/prop-types
 const ServiceCard = ({ service }) => {
+    // eslint-disable-next-line react/prop-types
     const { img, price, title } = service;
-    console.log(service)
+    // console.log(service)
     return (
         <div className="border-2 border-[#E8E8E8] p-5 rounded-lg">
             <img className="w-full rounded-lg h-[200px] mb-4" src={img} alt="" />

@@ -1,4 +1,3 @@
-import Navbar from "../Nabbar/Navbar";
 import login1 from '../../assets/images/login/login.svg';
 import { Link } from "react-router-dom";
 import { BiLogoFacebook } from 'react-icons/bi';
@@ -6,6 +5,7 @@ import { AiOutlineGoogle } from 'react-icons/ai';
 import { AiFillGithub } from 'react-icons/ai';
 import { useContext } from "react";
 import { AuthContext } from "../Authprovider/AuthProvider";
+import LoginNavBar from "../LoginNavBar/LoginNavBar";
 const Login = () => {
     const {login} = useContext(AuthContext);
     const handleLogin = event => {
@@ -26,7 +26,7 @@ const Login = () => {
     return (
         <div>
             <div className="max-w-7xl mx-auto px-4 mb-16">
-                <Navbar></Navbar>
+                <LoginNavBar></LoginNavBar>
             </div>
             <div className="max-w-7xl mx-auto px-4 bg-gray-100 p-10 rounded-xl">
                 <div className="flex items-center flex-col md:flex-row justify-between">
