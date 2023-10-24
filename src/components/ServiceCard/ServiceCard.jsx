@@ -10,7 +10,7 @@ const ServiceCard = ({ service }) => {
             <h2 className="text-2xl font-semibold mb-3">{title}</h2>
             <div className='flex items-center justify-between'>
                 <div>
-                    <p><span className="text-xl font-semibold">Price:</span> {price}</p>
+                    <p><span className="text-xl font-semibold">Price:</span> {price}$</p>
                 </div>
                 <div>
                     <AiOutlineArrowRight className='text-2xl text-[#FF3811]'></AiOutlineArrowRight>

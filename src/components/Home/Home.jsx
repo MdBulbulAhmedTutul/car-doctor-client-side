@@ -5,7 +5,6 @@ import Footer from "../Footer/Footer";
 import Navbar from "../Nabbar/Navbar";
 import Service from "../Service/Service";
 import TeamSection from "../TeamSection/TeamSection";
-
 const Home = () => {
     return (
         <div>
