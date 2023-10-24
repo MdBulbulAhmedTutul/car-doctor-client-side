@@ -5,6 +5,7 @@ import Footer from "../Footer/Footer";
 import Navbar from "../Nabbar/Navbar";
 import Service from "../Service/Service";
 import TeamSection from "../TeamSection/TeamSection";
+import CopyRight from "../copyright/CopyRight";
 const Home = () => {
     return (
         <div>
@@ -27,8 +28,13 @@ const Home = () => {
             <div className="max-w-7xl mx-auto px-4 my-16">
                 <TeamSection></TeamSection>
             </div>
+            <div className="bg-black text-white">
+                <div className="max-w-7xl mx-auto px-4">
+                    <Footer></Footer>
+                </div>
+            </div>
             <div>
-                <Footer></Footer>
+                <CopyRight></CopyRight>
             </div>
         </div>
     );

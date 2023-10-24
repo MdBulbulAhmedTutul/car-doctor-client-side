@@ -1,7 +1,7 @@
-import banner1 from '../../assets/images/banner/1.jpg';
-import banner2 from '../../assets/images/banner/2.jpg';
-import banner3 from '../../assets/images/banner/3.jpg';
-import banner4 from '../../assets/images/banner/4.jpg';
+import banner1 from '../../assets/images/homeCarousel/1.jpg';
+import banner2 from '../../assets/images/homeCarousel/2.jpg';
+import banner3 from '../../assets/images/homeCarousel/3.jpg';
+import banner4 from '../../assets/images/homeCarousel/4.jpg';
 const Carosel = () => {
     return (
         <div className="carousel w-full h-[80vh]">
