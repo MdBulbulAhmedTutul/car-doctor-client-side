@@ -1,8 +1,9 @@
 import { AiOutlineArrowRight } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 // eslint-disable-next-line react/prop-types
 const ServiceCard = ({ service }) => {
     // eslint-disable-next-line react/prop-types
-    const { img, price, title } = service;
+    const {_id, img, price, title } = service;
     // console.log(service)
     return (
         <div className="border-2 border-[#E8E8E8] p-5 rounded-lg">
@@ -16,7 +17,13 @@ const ServiceCard = ({ service }) => {
                     <AiOutlineArrowRight className='text-2xl text-[#FF3811]'></AiOutlineArrowRight>
                 </div>
             </div>
-            <button className='bg-[#ff3811] px-4 py-2 rounded-lg mt-4 text-white font-semibold'>Buy Now</button>
+            <Link to={`/checkout/${_id}`}>
+                <button
+                    className='bg-[#ff3811] px-4 py-2 rounded-lg
+                     mt-4 text-white font-semibold'>
+                    Book Now
+                </button>
+            </Link>
         </div>
     );
 };
